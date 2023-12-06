@@ -17,7 +17,7 @@
 
 (package
  (name ppx_dream_eml)
- (synopsis "PPX to process Dream's Embedded ML syntax.")
+ (synopsis "PPX to process Dream's Embedded ML syntax")
  (description "ppx_dream_eml allows processing Dream's Embedded ML syntax inline without the need to create dune directives and separate files.")
  (depends ocaml dune ppxlib dream)
  (tags
