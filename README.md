@@ -12,12 +12,11 @@ Add the ppx to your dune file:
 
 ```
 ...
-  (libraries ... ppx_dream_eml)
   (preprocess (pps ... ppx_dream_eml))
 ...
 ```
 
-And then use the `eml` extension in your OCaml code and write .eml templates as you normally would:
+And then use the `eml` extension in your OCaml code and write .eml templates as you normally would, except put the template part inside the extension:
 
 ```ocaml
 let render message = {%eml|
