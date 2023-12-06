@@ -1,0 +1,7 @@
+(library
+  (name ppx_dream_eml)
+  (public_name ppx_dream_eml)
+  (kind ppx_rewriter)
+  (libraries ppxlib camlp-streams dream)
+  (preprocess
+    (pps ppxlib.metaquot)))
