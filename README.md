@@ -8,6 +8,12 @@ The processing code is lifted directly from the [Dream repository](https://githu
 
 ## Usage
 
+Install the library:
+
+```bash
+opam install ppx_dream_eml
+```
+
 Add the ppx to your dune file:
 
 ```
